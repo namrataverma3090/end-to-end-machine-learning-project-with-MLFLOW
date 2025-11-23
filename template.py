@@ -3,6 +3,7 @@ from pathlib import Path
 import logging
 
 logging.basicConfig(level=logging.INFO,format='[%(asctime)]:%(message)s:')
+logging.info("Starting file creation process")
 
 project_name = "mlproject"
 
